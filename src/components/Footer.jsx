@@ -1,10 +1,11 @@
 import React from 'react'
 import { Container } from './styled/Container.styled'
 import { Flex } from './styled/Flex.styled'
+import { StyledFooter } from './styled/Footer.styled'
 
 const Footer = () => {
   return (
-    <div>
+    <StyledFooter>
         <Container>
         <img src='./images/logo_white.svg' alt='' />
 
@@ -32,7 +33,7 @@ const Footer = () => {
 
         <p>&copy; 2021 Huddle. All rights reserved</p>
       </Container>
-    </div>
+    </StyledFooter>
   )
 }
 
