@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from './styled/Container.styled'
 import { Flex } from './styled/Flex.styled'
 import { StyledFooter } from './styled/Footer.styled'
+import SocialIcons from './SocialIcons'
 
 const Footer = () => {
   return (
@@ -29,6 +30,7 @@ const Footer = () => {
             <li>Blog</li>
             <li>Contact Us</li>
           </ul>
+          <SocialIcons/>
         </Flex>
 
         <p>&copy; 2021 Huddle. All rights reserved</p>
