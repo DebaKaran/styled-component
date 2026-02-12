@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-    background-color: ${({bg}) => bg ? bg : "#ebfbff"};
+    background-color: ${({$bg = "#ebfbff"}) => $bg};
     
     padding : 40px 0;
 
