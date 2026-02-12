@@ -1,8 +1,8 @@
 import { StyledCard } from './styled/Card.styled'
 
-const Card = ({item: { title, body, image}}) => {
+const Card = ({item: {id, title, body, image}}) => {
   return (
-    <StyledCard>
+    <StyledCard $layout={id % 2 === 0 ? 'row-reverse' : 'row'}>
         <div>
             <h2>{title}</h2>
             <p>{body}</p>
