@@ -4,6 +4,7 @@ import { Container } from "./components/styled/Container.styled"
 import { theme } from "./styled/theme"
 import GlobalStyles from "./styled/Global"
 import content from "./content"
+import Card from "./components/Card"
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
           <Header />
           <Container>
               {content.map((item) => (
-                <p key={item.id}>{item.title}</p>
+                <Card key={item.id} item={item} />
               ))}
             </Container>
         </>
