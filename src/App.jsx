@@ -1,9 +1,11 @@
+import { Container } from "./components/styled/Container.styled"
+
 function App() {
 
   return (
-    <>
-      <h1>Styled Components</h1>
-    </>
+    <Container>
+      <h1>Hello World</h1>
+    </Container>
   )
 }
 
